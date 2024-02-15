@@ -13,12 +13,12 @@ const boidMaxSize = 10;
 const boidWanderRadius = 6;
 const boidWanderSpeed = 40;
 const boidSightRange = 150;
-const boidSoftBoundFactor = (boidMaxSize + boidMinSize);
+const boidSoftBoundFactor = (boidMaxSize + boidMinSize) * 8;
 const boidAlignmentFactor = 0.01;
 const boidCohesionFactor = 0.02;
 
-const boidSeperationFactor = 80;
-const boidSeperationDistance = 200;
+const boidSeperationFactor = 200;
+const boidSeperationDistance = 50;
 
 // const boidMaxCharge = 100;
 // const boidChargeShare = 250;
